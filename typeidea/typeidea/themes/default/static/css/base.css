@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(236, 240, 241);
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* z-index: 1030; */
+}
+
+/* 头部信息 */
+header{
+    height: 50px;
+    background-color: #3d4450;
+    border-color: #080808;
+    line-height: 50px;
+}
+
+header nav a{
+    color: #fff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+header nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+header nav a.link:hover {
+    background-color: #000;
+}
+
+header a.logo{
+    font-size: 1.5rem;
+    padding-left: 0px;
+}
+
+header nav a.logo {
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+
+header a.index {
+    background-color: red;
+}
+
+header .search{
+    margin-top: 5px;
+}
+
+
+/* 导航类目 */
+nav.category a{
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+
+/* 主体部分 */
+.main{
+    margin-top:90px;
+}
+.main ul{
+    margin-left: 0px;
+}
+
+
+.left-side {
+    padding-right: 20px;
+}
+
+.left-side .inner {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.right-side {
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+
+.banner{
+    margin-top: 60px;
+}
+
+
+
+.post-element-nav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #428bca;
+}
+
+.post-element-title {
+    font-size: 25px;
+
+}
+
+.post-element-title a {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-element-title a:hover {
+    text-decoration: none;
+}
+
+.post-element-desc{
+    padding: 1rem;
+}
+.post-element article{
+    margin: 10px;
+
+}
+
+.power{
+    margin-top: 30px;
+}
+
+/* .sidebar {
+    margin: 0px 0;
+    padding: 0px 0px;
+    border-top: 1px solid #ddd;
+}  */
+
+.sidebar li{
+    list-style:none;
+}
+
+.sidebar a{
+    color: #444;
+}
+
+.sidebar-title{
+    height: 30px;
+    background-color: #3d4450;
+    border-color: #080808;
+    line-height: 30px;
+    color:#fff;
+    padding: 0 9px;
+}
+
+.sidebar-content{
+   padding: 0 9px;
+}
+
+.sidebar ul{
+    margin-left: -40px;
+}
+
+
+/* .comment .nickname a{
+    font-size: 1.5rem;
+    color: #222;
+} */
+
